@@ -23,7 +23,8 @@
          * Enable slider
          */
         var container = document.getElementById('slider');
-        window.slider = Swipe(container);
+        window.slider = new Swipe(container, {auto: 2500});
+
         /*
          * Swipe
          */
