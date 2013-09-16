@@ -57,16 +57,16 @@
             /*
              * Markers
              */
-            cities = { 'Paris':            [ 48.5124, 2.2107 ],
-                       'Lyon':             [ 45.4535, 4.5032 ],
-                       'Strasbourg':       [ 48.3505, 7.4502 ],
-                       'Mulhouse':         [ 47.4458, 7.2024 ],
-                       'Clermont-Ferrand': [ 45.4659, 3.0456 ],
-                       'Bordeaux':         [ 44.5016, 0.3446 ],
-                       'Nantes':           [ 47.1305, 1.3310 ],
-                       'Rennes':           [ 48.0653, 1.4046 ],
-                       'Toulouse':         [ 3.3616, 1.2638 ],
-                       'Lille':            [ 50.3814, 3.0348 ]
+            cities = { 'Paris':            [ 48.833, 2.333 ],
+                       'Lyon':             [ 47.767, 4.833 ],
+                       'Strasbourg':       [ 48.583, 7.750 ],
+                       'Mulhouse':         [ 47.750, 7.350 ],
+                       'Clermont-Ferrand': [ 45.783, 3.083 ],
+                       'Bordeaux':         [ 44.833, -0.567 ],
+                       'Nantes':           [ 47.233, -1.583 ],
+                       'Rennes':           [ 48.100, -1.667 ],
+                       'Toulouse':         [ 43.617, 1.450 ],
+                       'Lille':            [ 50.650, 3.0834 ]
             };
             $.each(cities, function (city, coordinates) {
                 var marker = L.marker(new L.LatLng(coordinates[0], coordinates[1]));
